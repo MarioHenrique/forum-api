@@ -11,9 +11,7 @@ spring:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5Dialect
   datasource:
-    url:
-    username: root
-    password: root
+    url: ${JAWSDB_URL}
   data:
     mongodb:
-      uri:
+      uri: ${MONGODB_URI}
