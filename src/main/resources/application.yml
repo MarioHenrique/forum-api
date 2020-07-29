@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+security:
+  jwt:
+    public-key: classpath:public.txt
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url:
+    username: root
+    password: root
+  data:
+    mongodb:
+      uri:
