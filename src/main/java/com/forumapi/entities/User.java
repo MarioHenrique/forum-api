@@ -53,6 +53,10 @@ public class User extends History implements Serializable {
         return this;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
     public Long getId() {
         return id;
     }
